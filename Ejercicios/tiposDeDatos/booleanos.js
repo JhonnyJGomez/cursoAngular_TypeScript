@@ -1,0 +1,16 @@
+var esNuevo = false;
+var deseaImprimir = true;
+var juan = "Juan";
+var juan2 = "Juan";
+var aceptaDescuentos = (15 + 15 == 20);
+var sonNombresIgual = (juan == juan2);
+var sonAmbosVerdaderos = (aceptaDescuentos || sonNombresIgual);
+var sonDiferentes = (aceptaDescuentos != sonNombresIgual);
+var esAlgunaVerdadera = (aceptaDescuentos || sonNombresIgual || sonAmbosVerdaderos || sonDiferentes);
+var esTodasVerdadera = (aceptaDescuentos && sonNombresIgual && sonAmbosVerdaderos && sonDiferentes);
+console.log("acepta descuentos? " + aceptaDescuentos);
+console.log("Son nombres iguales? " + sonNombresIgual);
+console.log("Son variables verdadderas? " + sonAmbosVerdaderos);
+console.log("Son variables diferentes? " + sonDiferentes);
+console.log("Alguna variable es verdadera? " + esAlgunaVerdadera);
+console.log("todas las variables son verdadera? " + esTodasVerdadera);
