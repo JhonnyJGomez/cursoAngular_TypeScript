@@ -1,5 +1,5 @@
 # cursoAngular_TypeScript
-## Parte 1 Curso Angular. En esta primera parte solo vemos TypeScript basics. 
+## Parte 1 Curso Angular. En esta primera parte vemos TypeScript basics. 
 * Variables y tipo de Variables.
 * Condicionales. 
 * Ciclos. 
